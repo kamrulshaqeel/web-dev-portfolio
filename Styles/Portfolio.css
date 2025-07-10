@@ -7,6 +7,13 @@
       "wdth" 100;
   }
   /* Shared Style */
+  .text-center{
+    text-align: center;
+  }
+  .secondary-bg{
+    background-color: #FFF8F3;
+  }
+  
   .text-primary{
     color: #FD6E0A;
   }
@@ -72,4 +79,41 @@ header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-position: top left, bottom right;
     background-repeat: no-repeat;
+}
+.sectiob-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(23, 24, 23);
+}
+/* Main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* About styles */
+.about{
+    border-radius: 10px;
+    padding: 131px 200px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
+}
+/* What I do start from here */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 33px;
+    box-shadow:0px 6px 50px 0px rgb(165, 164, 164);
+    border-radius: 5px;
 }
